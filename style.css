@@ -1,0 +1,42 @@
+div {
+    line-height: 0px;
+    vertical-align: top;
+}
+
+h1 {
+    color: #f0a500;
+    margin-top: 75px;
+}
+
+button {
+    margin-top: 40px;
+}
+
+.base {
+    width: 50px;
+    height: 50px;
+    border: 3px #dbdbdd solid;
+    display: inline-block;
+    margin: 2px;
+}
+
+.jalan {
+    background-image: url('pacman.png');
+    background-size: cover;
+}
+
+.finish {
+    background-image: url('finish.gif');
+    background-size: cover;
+}
+
+.wall {
+    background-image: url('tembok.png');
+    background-size: cover;
+}
+
+.jalanyangbisadilewati {
+    border-radius: 50%;
+    background-color: palevioletred;
+    transform: scale(0.2);
+}
